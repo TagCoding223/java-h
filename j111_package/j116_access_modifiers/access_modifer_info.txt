@@ -1,0 +1,17 @@
+access modidiers determine whether other classes can use a particular field or invoke a particular method can be public , private , protected or default (no modifier , just show default behaviour when we not use any other).
+
+                    case1       case2           case3           case4
+
+    Modifier        Class       Package         Sub-class       World
+
+    public            Y             Y               Y             Y
+
+    protected         Y             Y               Y             N
+
+    default(no)       Y             Y               N             N
+
+    private           Y             N               N             N
+
+default (no keyword required)
+
+note : remember class also have access modifier

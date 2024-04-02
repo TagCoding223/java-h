@@ -1,0 +1,26 @@
+why multiple inheritance in java is not allowed ?
+indirectly multiple inheritance is possible using interface
+
+class finalClass extends orignal implements interfaceclass1 , interfaceclass2 ....{}
+
+only one extends allow but multiple iterrface also use
+
+    class       interface       interface       interface
+
+    phone       gps             media           cemra
+    |           |                  |              |
+    --------------------> smartphone <-------------
+
+phone extends in smartphone because phone upgrade in smartphone and all basic attributes are same , but gps , media and cemra are different attributes use in smartphone , they are not convert to smartphone
+
+
+    class           interface       interface       interface
+
+    character       LeftMove        RigtMove         Jump
+    |               |                  |              |
+    ------------------------> Hero <-------------------
+
+    action are constant never update
+
+    note : method override is compersorly but attributes is not .
+            you will create referance of interface not object .

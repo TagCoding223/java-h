@@ -1,0 +1,22 @@
+package also use to organize files .
+javac f1.java -> f1.class
+java f1.java -> program execute
+javac -d . f1.java -> crate a package folder and f1.class file create here(create a class file as coresponding package)
+javac *.java -> compiler all java files exist in folder
+javac -d . *.java -> compiler all java file coresponting package and drop it folder
+if multiple package available in folder file's than create multiple package folder
+
+sub-folder
+f1 -> package vishal.name;
+    
+    folder -> vishal
+                | -> name(sub-folder)
+                |      | -> f1.class
+
+
+javac -d xyz *.java (not good for practice)
+replace .(dot) to xyz(anything it just a folder name) and all package(folder) create under it .
+these package once created can be used by other classes
+create methods outside of psvm 
+packages just like libarayes of c/c++ 
+

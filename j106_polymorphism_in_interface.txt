@@ -1,0 +1,19 @@
+polymorphism -> select run time behaviour
+
+
+    class       interface       interface       interface
+
+    phone       gps             media           cemra
+    |           |                  |              |
+    --------------------> smartphone <-------------
+
+    gps obj = new smartphone();
+    |                   |
+    referance           object
+
+    means use smartphone as gps and only use this method's allowed(only use gps methods also not allow to run smartphone methods only gps)
+
+    smartphone obj = new smartphone();
+    all methods allowed
+
+    implementing an interface forces method implemantation
